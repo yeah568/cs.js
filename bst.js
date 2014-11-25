@@ -58,23 +58,18 @@ BST.prototype = {
         }
     },
     inOrder: function() {
-       console.log("in order");
        this.root.inOrder();
     },
     preOrder: function() {
-       console.log("preorder");
        this.root.preOrder();
     },
     postOrder: function() {
-       console.log("postorder");
        this.root.postOrder();
     },
     breadthFirst: function() {
-        console.log("breadth first");
         this.root.breadthFirst();
     },
     reverseBreadthFirst: function() {
-        console.log("reverse breadth first");
         this.root.reverseBreadthFirst();
     }
 };
@@ -138,6 +133,5 @@ Node.prototype = {
         while (s.length !== 0) {
             console.log(s.pop());
         }
-
     }
 };
